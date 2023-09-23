@@ -1,1 +1,1 @@
-GET http://localhosts:3000/
+GET http://localhosts:3000/contacts/

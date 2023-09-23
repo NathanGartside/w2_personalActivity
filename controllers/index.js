@@ -4,6 +4,7 @@ const ObjectId = require('mongodb').ObjectId;
 async function getAll(req, res) {
     const result = await mongodb.getDb().db().collection('contacts').find();
     result.toArray().then((lists) => {
+        console.log(lists);
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(lists); // we just need the first one (the only one)
     });
