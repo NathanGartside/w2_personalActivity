@@ -1,1 +1,7 @@
-GET http://localhosts:3000/contacts/
+GET localhost:3000/contacts
+
+GET localhost:3000/contacts/650f47d73b86321bfe6961b5
+
+GET https://getnameupdated.onrender.com/contacts
+
+GET https://getnameupdated.onrender.com/contacts/650f47d73b86321bfe6961b5
